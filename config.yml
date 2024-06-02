@@ -15,16 +15,16 @@ cliArgs:
   timeout: 300000 # milli-seconds
   baseurl: '/' #base url for api
 routingServers:
-  osrm:
-    car:
-      host: '0.0.0.0'
-      port: '5555'
-    bike:
-      host: '0.0.0.0'
-      port: '5001'
-    foot:
-      host: '0.0.0.0'
-      port: '5002'
+  # osrm:
+  #   car:
+  #     host: '0.0.0.0'
+  #     port: '5555'
+  #   bike:
+  #     host: '0.0.0.0'
+  #     port: '5001'
+  #   foot:
+  #     host: '0.0.0.0'
+  #     port: '5002'
   ors:
     driving-car:
       host: '0.0.0.0/ors/v2'
@@ -50,31 +50,31 @@ routingServers:
     foot-hiking:
       host: '0.0.0.0/ors/v2'
       port: '8080'
-  valhalla:
-    auto:
-      host: '0.0.0.0'
-      port: '8002'
-    bicycle:
-      host: '0.0.0.0'
-      port: '8002'
-    pedestrian:
-      host: '0.0.0.0'
-      port: '8002'
-    motorcycle:
-      host: '0.0.0.0'
-      port: '8002'
-    motor_scooter:
-      host: '0.0.0.0'
-      port: '8002'
-    taxi:
-      host: '0.0.0.0'
-      port: '8002'
-    hov:
-      host: '0.0.0.0'
-      port: '8002'
-    truck:
-      host: '0.0.0.0'
-      port: '8002'
-    bus:
-      host: '0.0.0.0'
-      port: '8002'
+  # valhalla:
+  #   auto:
+  #     host: '0.0.0.0'
+  #     port: '8002'
+  #   bicycle:
+  #     host: '0.0.0.0'
+  #     port: '8002'
+  #   pedestrian:
+  #     host: '0.0.0.0'
+  #     port: '8002'
+  #   motorcycle:
+  #     host: '0.0.0.0'
+  #     port: '8002'
+  #   motor_scooter:
+  #     host: '0.0.0.0'
+  #     port: '8002'
+  #   taxi:
+  #     host: '0.0.0.0'
+  #     port: '8002'
+  #   hov:
+  #     host: '0.0.0.0'
+  #     port: '8002'
+  #   truck:
+  #     host: '0.0.0.0'
+  #     port: '8002'
+  #   bus:
+  #     host: '0.0.0.0'
+  #     port: '8002'
